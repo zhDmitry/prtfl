@@ -1,0 +1,41 @@
+@import 'https://jenil.github.io/bulmaswatch/yeti/bulmaswatch.min.css';
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import '~terminal-in-react/lib/css/index.css';
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;
+}
+
+.is-bold {
+  font-weight: 700;
+}
+
+.center {
+  justify-content: center !important;
+}
+.slick-arrow.slick-prev::before,
+.slick-arrow.slick-next::before {
+  color: black;
+}
+
+.slider-image {
+  height: 600px !important;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.flex {
+  display: flex;
+}
+
+.divider {
+  margin-top: 100px;
+}
+
+.hell-button {
+  position: absolute;
+  right: 12px;
+  top: 24px;
+}

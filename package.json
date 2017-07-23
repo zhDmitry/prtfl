@@ -1,0 +1,11 @@
+{
+	"devDependencies": {
+		"lerna": "^2.0.0"
+	},
+	"dependencies": {
+		"lazy-route": "^1.0.7",
+		"lodash-es": "^4.17.4",
+		"react-x-ray": "^1.0.0-2",
+		"terminal-in-react": "^3.3.1"
+	}
+}
