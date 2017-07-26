@@ -163,7 +163,7 @@ export const config = {
       subtitle: "demo app for call center"
     },
     video:
-      "//cdn.vidyard.com/videos/oJZ0c6RXbq5LMGecyWV40g/sd.mp4?9uTZHjdj4iIp9LuVmbx420msgfUz_24M_0TASYYwxcy7P1KSY1Bw5nAYIo4TceDKu_yWWA_S4I7pq1kpK4YgDXcHwTVHktPtwa8a4t61"
+      "//cdn.vidyard.com/viewedit/u267377/bfb38cb2-a116-4a2c-bb47-5de95d8af651.jpg"
   },
   sqlab: {
     video:
