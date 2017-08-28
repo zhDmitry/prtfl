@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import Slider from 'react-slick';
+import React, { Component } from "react";
+import Slider from "react-slick";
 
 var settings = {
   dots: true,
-  adaptiveHeight: true,
+  adaptiveHeight: true
 };
 
 class Block extends Component {
@@ -13,14 +13,10 @@ class Block extends Component {
       video,
       comments = [],
       features = [],
-      info: {
-        title = 'Default',
-        subtitle = 'default',
-        description 
-      } = {}
+      info: { title = "Default", subtitle = "default", description } = {}
     } = this.props;
     return (
-      <div className="container" >
+      <div className="container">
         <section className="section container">
           <p className="title is-2 has-text-centered">
             {title}
@@ -45,19 +41,24 @@ class Block extends Component {
           {images &&
             <Slider {...settings}>
               {images.map((el, i) =>
-                <div style={{minHeight:600}}>
-                  <p className="title is-6 has-text-centered">
-                    {comments[i]}
-                  </p>
-                  <img src={el} key={i} />
-                </div>
+                <a href={el}>
+                  <div style={{ minHeight: 600 }}>
+                    <p className="title is-6 has-text-centered">
+                      {comments[i]}
+                    </p>
+                    <img src={el} key={i} />
+                  </div>
+                </a>
               )}
             </Slider>}
-          {video && <div className="container"><video  src={video} controls={true} /> </div>}
+          {video &&
+            <div className="container">
+              <video src={video} controls={true} />{" "}
+            </div>}
         </section>
         {description &&
           <div className="section center container flex">
-            <div className="box center" style={{ width: '70%' }}>
+            <div className="box center" style={{ width: "70%" }}>
               {description}
             </div>
           </div>}

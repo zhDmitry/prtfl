@@ -165,6 +165,34 @@ export const config = {
     video:
       "//cdn.vidyard.com/viewedit/u267377/bfb38cb2-a116-4a2c-bb47-5de95d8af651.jpg"
   },
+  siteplus: {
+    images: [
+      require("./assets/sp.png"),
+    ],
+    features: [
+      {
+        heading: "Tech",
+        title: "React"
+      },
+      {
+        heading: "Feature 1",
+        title: "Undo/redo"
+      },
+      {
+        heading: "Feature 2",
+        title: "Advanced D&D"
+      },
+      {
+        heading: "Feature 3",
+        title: "Customizable"
+      }
+    ],
+    info: {
+      title: "Siteplus",
+      subtitle: "Siteplus builder",
+      description: ""
+    }
+  },
   sqlab: {
     video:
       "//cdn.vidyard.com/viewedit/u267377/6190e3af-7e9c-4d96-8680-63c4cadfb4f8.webm?8bmcOdv1CREFAXUijKN2CFr0k1EiZ8ozCBnYLsnw8UkpFYGdBT6CUnGNE-iajsjF_3O3e7fLchnCVqO1-NpE65TutValyrFpLUYNWC7fxNDfSChW85Oh-5oRpR68DSfC5R_jTg",
@@ -193,4 +221,4 @@ export const config = {
   }
 };
 
-export default config
+export default config;
